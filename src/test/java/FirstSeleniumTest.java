@@ -7,20 +7,25 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import java.util.*;  
+
+import java.net.URL;
+import java.net.MalformedURLException;
 
 
 public class FirstSeleniumTest {
     public WebDriver driver;
     
     @Before
-    public void setup() {
+    public void setup()  throws MalformedURLException  {
         WebDriverManager.chromedriver().setup();
 
-        driver = new ChromeDriver();
+        driver = new RemoteWebDriver(new URL("http://selenium:4444/wd/hub"), DesiredCapabilities.chrome());
         driver.manage().window().maximize();
     }
     
@@ -28,11 +33,12 @@ public class FirstSeleniumTest {
     public void testSearch() {
         MainPage mainPage = new MainPage(this.driver);
         Assert.assertTrue(mainPage.getFooterText().contains("2021 ELTE Faculty of Informatics"));
-               
+
         SearchResultPage searchResultPage = mainPage.search("Students");
         String bodyText = searchResultPage.getBodyText();
-        Assert.assertTrue(bodyText.contains("found"));
-        Assert.assertTrue(bodyText.contains("For Students"));
+        System.out.println(bodyText);
+        Assert.assertTrue(bodyText.contains("FOUND"));
+        Assert.assertTrue(bodyText.contains("Current Students"));
     }
     
     @Test
@@ -42,7 +48,7 @@ public class FirstSeleniumTest {
             MainPage mainPage = new MainPage(this.driver);
             SearchResultPage searchResultPage = mainPage.search(searchQuery);
             String bodyText = searchResultPage.getBodyText();
-            Assert.assertTrue(bodyText.contains("found"));
+            Assert.assertTrue(bodyText.contains("FOUND"));
         }  
     }
     
