@@ -1,6 +1,12 @@
-# XPath
+# Videos
 
-Video: 
+XPath: https://youtu.be/jDWqhgB7OUU
+
+Page Object model: https://youtu.be/f_1XTDevI_Y
+
+Big assignment: https://youtu.be/NyZX4-IOhRs
+
+# XPath
 
 XPath is a general language to select elements from XML language.
 While the HTML is an XML then we can use the XPath to find elements.
@@ -12,8 +18,6 @@ https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/By.html#xpat
 
 # Page Object pattern
 
-Video: 
-
 If we write more test the suites can get harder and harder to understand, so we introduce a level of organizing code.
 We say that every page have it's own class that contains the actions that can be done on that page or information that can be claimed.
 
@@ -21,8 +25,6 @@ https://www.selenium.dev/documentation/en/guidelines_and_recommendations/page_ob
 
 
 # Big assignment
-
-Video: 
 
 All of you have to do a big assignment that have to be presented in the future.
 
@@ -44,8 +46,10 @@ The steps of the big assignment:
 - Present your solution.
 If you cannot explain fully that you wrote and does not convince me that you wrote it the work is failed and you have to choose a new page and redo the task.
 
-You have **2 weeks** to do the assignment, after that weekly you lose 1 grade. 
-So if you submit at :
-- 22th of May 6:01 AM and you have points for grade 5, you only get grade 4 (1 week late). 
-- 29th of May 5:99 AM and you have points for grade 4, you only get grade 3 (1 week late).
-- 29th of May 6:10 AM and you have points for grade 3, you only get grade 1 (2 week late). 
+You have **2 weeks** to do the assignment, after that weekly you lose 1 grade. The deadline as before at Monday 6:00 AM.
+
+So for examples, if you submit at:
+- 29th of May 5:45 AM and you have points for grade 5, you only get grade 5 (in time).
+- 29th of May 6:01 AM and you have points for grade 5, you only get grade 4 (1 week late).
+- 5th of June 5:99 AM and you have points for grade 4, you only get grade 3 (1 week late).
+- 5th of June 6:10 AM and you have points for grade 3, you only get grade 1 (2 week late). 
