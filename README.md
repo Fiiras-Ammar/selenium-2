@@ -43,8 +43,7 @@ The steps of the big assignment:
 - Fill [this form](https://docs.google.com/forms/d/e/1FAIpQLSeDvCWjhM4KrUV_1eQc45taf--5Uz798jruwcFd8vjvXVAyHg/viewform?usp=sf_link) about your webpage choose. By filling the form, your reserve will be added to the spreadsheet mentioned in the previous bullet point.
 - Make your test program and publish on **Github** (Yes not on GitLab, now I ask you to use the public https://github.com/ to improve your visibility on the internet as programmer).
 - Copy the [point spreadsheet](https://docs.google.com/spreadsheets/d/1lwZlTShULZVSCxM-ew880VkdSffrruTUF229c-FsC5k/edit?usp=sharing) and fill the github url and with the tasks that you have done.
-- Present your solution.
-If you cannot explain fully that you wrote and does not convince me that you wrote it the work is failed and you have to choose a new page and redo the task.
+- Present your solution in a 1v1 call on Teams if you want to get grade 4 or 5. For grade 2,3 it is not necessary to present your work. I will publish possible presentation slots around 22th of May.  You have to be able to explain your work and convince me that you were doing it alone.
 
 You have **2 weeks** to do the assignment, after that weekly you lose 1 grade. The deadline as before at Monday 6:00 AM.
 
@@ -53,3 +52,5 @@ So for examples, if you submit at:
 - 29th of May 6:01 AM and you have points for grade 5, you only get grade 4 (1 week late).
 - 5th of June 5:99 AM and you have points for grade 4, you only get grade 3 (1 week late).
 - 5th of June 6:10 AM and you have points for grade 3, you only get grade 1 (2 week late). 
+
+The presentation can be later than the finish, but your last commit matters in your repository about the late submission.
