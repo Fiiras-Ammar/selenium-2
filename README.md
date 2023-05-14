@@ -45,7 +45,7 @@ The steps of the big assignment:
 - Copy the [point spreadsheet](https://docs.google.com/spreadsheets/d/1lwZlTShULZVSCxM-ew880VkdSffrruTUF229c-FsC5k/edit?usp=sharing) and fill the github url and with the tasks that you have done.
 - Present your solution in a 1v1 call on Teams if you want to get grade 4 or 5. For grade 2,3 it is not necessary to present your work. I will publish possible presentation slots around 22th of May.  You have to be able to explain your work and convince me that you were doing it alone.
 
-You have **2 weeks** to do the assignment, after that weekly you lose 1 grade. The deadline as before at Monday 6:00 AM.
+You have **2 weeks** to do the assignment, after that weekly you lose 1 grade. The deadline is same as was for the weekly tasks, so 6:00 AM.
 
 So for examples, if you submit at:
 - 29th of May 5:45 AM and you have points for grade 5, you only get grade 5 (in time).
