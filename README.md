@@ -35,6 +35,7 @@ Every student has to have to choose different website.
 There are many task that you can do, but there are obligatory tasks as well.
 These tasks can be found in [this spreadsheet](https://docs.google.com/spreadsheets/d/1lwZlTShULZVSCxM-ew880VkdSffrruTUF229c-FsC5k/edit?usp=sharing).
 You will need to copy this spreadsheet and fill the yelllow zones.
+Watch out for the minimum requirements for grades from row 40 in the spreadsheet. For example if you do not ignore unnecessary files, you cannot get better than grade 2.
 
 
 The steps of the big assignment:
@@ -48,9 +49,9 @@ The steps of the big assignment:
 You have **2 weeks** to do the assignment, after that weekly you lose 1 grade. The deadline is same as was for the weekly tasks, so 6:00 AM.
 
 So for examples, if you submit at:
-- 29th of May 5:45 AM and you have points for grade 5, you only get grade 5 (in time).
-- 29th of May 6:01 AM and you have points for grade 5, you only get grade 4 (1 week late).
-- 5th of June 5:99 AM and you have points for grade 4, you only get grade 3 (1 week late).
-- 5th of June 6:10 AM and you have points for grade 3, you only get grade 1 (2 week late). 
+- 13th of May 3:45 AM and you have points for grade 5, you only get grade 5 (in time).
+- 13th of May 4:01 AM and you have points for grade 5, you only get grade 4 (1 week late).
+- 20th of May 3:59 AM and you have points for grade 4, you only get grade 3 (1 week late).
+- 20th of May 4:10 AM and you have points for grade 3, you only get grade 1 (2 week late). 
 
 The presentation can be later than the finish, but your last commit matters in your repository about the late submission.
