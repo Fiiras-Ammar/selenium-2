@@ -29,13 +29,13 @@ public class FirstSeleniumTest {
     @Test
     public void testSearch() {
         MainPage mainPage = new MainPage(this.driver);
-        Assert.assertTrue(mainPage.getFooterText().contains("2021 ELTE Faculty of Informatics"));
+        Assert.assertTrue(mainPage.getFooterText().contains("2025 ELTE Faculty of Informatics"));
 
         SearchResultPage searchResultPage = mainPage.search("Students");
         String bodyText = searchResultPage.getBodyText();
         System.out.println(bodyText);
         Assert.assertTrue(bodyText.contains("FOUND"));
-        Assert.assertTrue(bodyText.contains("Current Students"));
+        Assert.assertTrue(bodyText.contains("For students"));
     }
     
     @Test
