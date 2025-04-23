@@ -46,12 +46,12 @@ The steps of the big assignment:
 - Copy the [point spreadsheet](https://docs.google.com/spreadsheets/d/1lwZlTShULZVSCxM-ew880VkdSffrruTUF229c-FsC5k/edit?usp=sharing) and fill the github url and with the tasks that you have done. Share your spreadsheet with me with WRITE privilege hudi1989@gmail.com.
 - Present your solution in a 1v1 call on Teams if you want to get grade 4 or 5. For grade 2,3 it is not necessary to present your work. I will publish possible presentation slots from 30th of May.  You have to be able to explain your work and convince me that you were doing it alone.
 
-You have **2 weeks** to do the assignment, after that weekly you lose 1 grade. The deadline is same as was for the weekly tasks, so 4:00 AM.
+You have **2 weeks** to do the assignment, after that weekly you lose 1 grade. The deadline is same as was for the weekly tasks, so 6:00 AM.
 
 So for examples, if you submit at:
-- 20th of May 3:45 AM and you have points for grade 5, you only get grade 5 (in time).
-- 20th of May 4:01 AM and you have points for grade 5, you only get grade 4 (1 week late).
-- 27th of May 3:59 AM and you have points for grade 4, you only get grade 3 (1 week late).
-- 27th of May 4:10 AM and you have points for grade 3, you only get grade 1 (2 week late). 
+- 19th of May 5:45 AM and you have points for grade 5, you only get grade 5 (in time).
+- 19th of May 6:01 AM and you have points for grade 5, you only get grade 4 (1 week late).
+- 26th of May 5:59 AM and you have points for grade 4, you only get grade 3 (1 week late).
+- 26th of May 6:10 AM and you have points for grade 3, you only get grade 1 (2 week late). 
 
 The presentation can be later than the finish, but your last commit matters in your repository about the late submission.
