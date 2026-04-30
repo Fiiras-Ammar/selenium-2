@@ -77,6 +77,10 @@ No matter how many points you have, the following quality standards apply:
 
 For example if you do not ignore unnecessary files, you cannot get better than grade 2.
 
+### How this maps to your final course grade
+
+Your assignment grade (1–5) is multiplied by 2 to get your instructor score (0–10) for the final grade calculation. For example, grade 3 on this assignment = 6 points out of 10.
+
 ## AI Usage
 
 If you used any AI tools, fill in the ai_usage section in points.yml. This won't affect your grade. However, if you don't declare AI usage but your code clearly looks AI-generated or not your own work, I will ask you to present and explain your solution in a 1-on-1 call.
