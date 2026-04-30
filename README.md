@@ -88,7 +88,9 @@ If you used any AI tools, fill in the ai_usage section in points.yml. This won't
 
 ## Deadline
 
-**May 20, 2026 6:00 AM** Your last commit timestamp matters.
+**Deadline for the assignment: May 19** (precisely May 20 6:00 AM).
+
+Your last commit timestamp matters.
 
 Late submission penalties:
 
