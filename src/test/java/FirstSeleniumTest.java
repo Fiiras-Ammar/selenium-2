@@ -29,28 +29,25 @@ public class FirstSeleniumTest {
     @Test
     public void testSearch() {
         MainPage mainPage = new MainPage(this.driver);
-        Assert.assertTrue(mainPage.getFooterText().contains("2025 ELTE Faculty of Informatics"));
+        Assert.assertTrue(mainPage.getFooterText().contains("Eötvös Loránd University"));
 
-        SearchResultPage searchResultPage = mainPage.search("Students");
+        SearchResultPage searchResultPage = mainPage.search("Student guide 2025");
         String bodyText = searchResultPage.getBodyText();
-        System.out.println(bodyText);
-        Assert.assertTrue(bodyText.contains("FOUND"));
-        Assert.assertTrue(bodyText.contains("For students"));
+        Assert.assertTrue(bodyText.contains("Searched content"));
+        Assert.assertTrue(bodyText.contains("Student guide 2025/26"));
     }
-    
+
     @Test
     public void testSearch2() {
-        String[] searchQueries={"something","","xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"};  
-        for(String searchQuery : searchQueries) {  
+        String[] searchQueries={"something","asd","xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"};
+        for(String searchQuery : searchQueries) {
             MainPage mainPage = new MainPage(this.driver);
             SearchResultPage searchResultPage = mainPage.search(searchQuery);
             String bodyText = searchResultPage.getBodyText();
-            Assert.assertTrue(bodyText.contains("FOUND"));
+            Assert.assertTrue(bodyText.contains("Searched content"));
         }  
     }
-    
 
-    
     @After
     public void close() {
         if (driver != null) {

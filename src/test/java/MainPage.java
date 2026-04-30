@@ -8,15 +8,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 
 
 class MainPage extends PageBase {
 
-    private By footerBy = By.className("footer-block");
-    private By searchBarTogglerBy = By.xpath("//a[@class='search-bar-toggler']/i");
-    private By searchBarBy = By.name("search");
-    
+    private By footerBy = By.id("footer");
+    private By searchBarTogglerBy = By.id("search-box-toggle");
+    private By searchBarBy = By.xpath("//div[@id='search-box']//input[@type='search']");
+
     public MainPage(WebDriver driver) {
         super(driver);
         this.driver.get("https://www.inf.elte.hu/en/");
@@ -28,8 +29,7 @@ class MainPage extends PageBase {
     
     public SearchResultPage search(String searchQuery) {
         this.waitAndReturnElement(searchBarTogglerBy).click();
-        
-        this.waitAndReturnElement(searchBarBy).sendKeys(searchQuery + "\n");
+        this.waitAndReturnElement(searchBarBy).sendKeys(searchQuery, Keys.ENTER);
         return new SearchResultPage(this.driver);
     }
 }
