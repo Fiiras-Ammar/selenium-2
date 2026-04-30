@@ -36,7 +36,7 @@ Your assignment is to write Selenium tests for a publicly available website of y
 
 3. **Write your Selenium tests** and push your code to your forked repository.
 
-4. **Fill in `points.yml`** in the root of your repository. This file contains the full task list with point values. Mark the tasks you have completed. Every time you push, a GitHub Actions CI pipeline will run automatically (similar to the GitLab CI we used in class). **The CI must pass for your submission to be graded.**
+4. **Fill in `points.yml`** in the root of your repository. This file is a [YAML](https://en.wikipedia.org/wiki/YAML) file that contains the full task list with point values. Mark the tasks you have completed. Every time you push, a GitHub Actions CI pipeline will run automatically (similar to the GitLab CI we used in class). **The CI must pass for your submission to be graded.**
 
 5. **Submit your work** [here](https://docs.google.com/forms/d/e/1FAIpQLSd2asaAJwY9K5CSdew_hosIbHKL5KwSNm0CAqwWabSEju0Peg/viewform?usp=sf_link).
 
@@ -71,7 +71,8 @@ Your full grade report is printed there.
 
 No matter how many points you have, the following quality standards apply:
 
-- **Grade 3+**: Code is structured and organized in classes and functions. Unnecessary files are properly ignored (`.gitignore`).
+- **Grade 2+**: Unnecessary files are properly ignored (`.gitignore`).
+- **Grade 3+**: Code is structured and organized in classes and functions.
 - **Grade 4+**: The above, plus code is readable — every function name describes what it does. Test suite reads like a test description.
 - **Grade 5**: The above, plus low code redundancy — minimal duplication.
 
@@ -105,3 +106,11 @@ Late submission penalties:
 - You submit on May 20 at 6:01 AM with points for grade 5 → you get grade **4** (1 week late).
 - You submit on May 27 at 5:59 AM with points for grade 4 → you get grade **3** (1 week late).
 - You submit on June 3 at 6:10 AM with points for grade 3 → you get grade **1** (2+ weeks late).
+
+## Troubleshooting
+
+**CI is not running after push:** Go to the Actions tab in your repository and enable workflows. GitHub disables them by default in forked repositories.
+
+**CI fails with YAML error:** Check your `points.yml` syntax at [yamllint.com](https://www.yamllint.com/). Common mistakes: wrong indentation, missing quotes, tabs instead of spaces.
+
+**CI shows "NOT GRADEABLE":** You forgot to fill in `website_under_test` in `points.yml`.
