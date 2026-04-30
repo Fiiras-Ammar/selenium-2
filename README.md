@@ -73,8 +73,8 @@ No matter how many points you have, the following quality standards apply:
 
 - **Grade 2+**: Unnecessary files are properly ignored (`.gitignore`).
 - **Grade 3+**: Code is structured and organized in classes and functions.
-- **Grade 4+**: The above, plus code is readable — every function name describes what it does. Test suite reads like a test description.
-- **Grade 5**: The above, plus low code redundancy — minimal duplication.
+- **Grade 4+**: Code is readable and every function name describes what it does. Test suite reads like a test description.
+- **Grade 5**: Low code redundancy with minimal duplication.
 
 For example if you do not ignore unnecessary files, you cannot get better than grade 2.
 
@@ -116,3 +116,17 @@ Late submission penalties:
 **CI fails with YAML error:** Check your `points.yml` syntax at [yamllint.com](https://www.yamllint.com/). Common mistakes: wrong indentation, missing quotes, tabs instead of spaces.
 
 **CI shows "NOT GRADEABLE":** You forgot to fill in `website_under_test` in `points.yml`.
+
+**CAPTCHA blocks my test:** If your website has a CAPTCHA on login or elsewhere, it's fine to solve it manually before the test runs (e.g. pause at the start, solve it by hand, then continue). Automated CAPTCHA solving is not expected.
+
+**I want to switch to a different website:** Just fill out the reservation form again with the new website. No need to ask — the latest reservation counts.
+
+**What counts as a "complex XPath":** A simple `By.id("login")` or `By.className("btn")` is not an XPath. Something like `//div[@class='content']//a[contains(@href,'profile')]` counts. If your XPath uses axes, predicates, or multiple levels of nesting, it's complex enough.
+
+**What counts toward the 4/6/8 class requirement:** All Java classes count: test classes, page object classes, BasePage, utility/helper classes, etc.
+
+**"Login form" vs "Form sending with user":** "Login form" means filling in and submitting a login form. "Form sending with user" means submitting any other form that requires you to be logged in first (e.g. updating your profile, posting a comment, placing an order).
+
+**I cloned instead of forking:** Your repository must be a fork of the template repo so the CI workflow is included. If you cloned and created your own repo, copy the `.github` folder from the template into your repo, or start over with a proper fork.
+
+**My repository is private:** Make sure your repository is public. I need to be able to see your code to grade it.
