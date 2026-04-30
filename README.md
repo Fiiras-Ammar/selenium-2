@@ -77,6 +77,10 @@ No matter how many points you have, the following quality standards apply:
 
 For example if you do not ignore unnecessary files, you cannot get better than grade 2.
 
+## AI Usage
+
+If you used any AI tools, fill in the ai_usage section in points.yml. This won't affect your grade. However, if you don't declare AI usage but your code clearly looks AI-generated or not your own work, I will ask you to present and explain your solution in a 1-on-1 call.
+
 ## Deadline
 
 **May 20, 2026 6:00 AM** Your last commit timestamp matters.
